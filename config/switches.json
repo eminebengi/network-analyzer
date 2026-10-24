@@ -1,0 +1,28 @@
+{
+  "switches": [
+    {
+      "name": "SW-Omurga-1",
+      "ip": "10.20.0.2",
+      "community": "public",
+      "location": "Sistem Odası"
+    },
+    {
+      "name": "SW-Radyoloji",
+      "ip": "10.20.2.10",
+      "community": "public",
+      "location": "Zemin Kat - Radyoloji"
+    },
+    {
+      "name": "SW-Ameliyathane",
+      "ip": "10.20.1.10",
+      "community": "public",
+      "location": "1. Kat - Ameliyathane"
+    },
+    {
+      "name": "SW-Poliklinik",
+      "ip": "10.20.3.10",
+      "community": "public",
+      "location": "2. Kat - Poliklinik"
+    }
+  ]
+}

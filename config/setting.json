@@ -1,0 +1,9 @@
+{
+  "toplam_bilgisayar": 3500,
+  "port_sayisi": 38,
+  "ip_blogu_prefix": "10.100",
+  "kat_sayisi": 5,
+  "kat_basina_switch": 10,
+  "tarama_hizi_saniye": 0.01,
+  "risk_olasiligi": 0.08
+}

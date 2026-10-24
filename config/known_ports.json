@@ -1,0 +1,32 @@
+{
+  "21": {
+    "ad": "FTP (Dosya Aktarım Protokolü)",
+    "risk_tipi": "Şifresiz Kimlik Doğrulama ve Veri İletimi",
+    "seviye": "Yüksek (High)",
+    "aciklama": "FTP protokolü verileri ve kullanıcı şifrelerini ağ üzerinden şifrelemeden (cleartext) gönderir. Saldırganlar ağ trafiğini dinleyerek (sniffing) bu bilgileri ele geçirebilir."
+  },
+  "23": {
+    "ad": "Telnet (Uzaktan Erişim)",
+    "risk_tipi": "Güvensiz Uzaktan Yönetim ve Şifresiz İletişim",
+    "seviye": "Kritik (Critical)",
+    "aciklama": "Telnet, tüm iletişim trafiğini şifresiz iletir. Cihaz yönetim şifreleri ağa sızan herkes tarafından okunabilir. Yerine SSH (Port 22) kullanılmalıdır."
+  },
+  "80": {
+    "ad": "HTTP (Web Sunucusu)",
+    "risk_tipi": "Şifresiz Web İletişimi (Cleartext Traffic)",
+    "seviye": "Orta (Medium)",
+    "aciklama": "Kullanıcı verileri şifrelenmeden taşınır. Özellikle hastane bilgi yönetim sistemine (HBYS) giriş yapılırken şifrelerin çalınma riski vardır. HTTPS (Port 443) zorunlu kılınmalıdır."
+  },
+  "445": {
+    "ad": "SMBv1 (Dosya Paylaşımı)",
+    "risk_tipi": "Uzaktan Kod Çalıştırma (RCE) / WannaCry Zafiyeti",
+    "seviye": "Kritik (Critical)",
+    "aciklama": "Eski SMB protokolleri (özellikle SMBv1), ağ üzerinden solucan (worm) yazılımların yayılmasına izin verir. WannaCry fidye yazılımı bu portu kullanarak yayılmıştır."
+  },
+  "3389": {
+    "ad": "RDP (Uzak Masaüstü Protokolü)",
+    "risk_tipi": "Yetkisiz Erişim / Kaba Kuvvet Saldırısı (Brute Force)",
+    "seviye": "Yüksek (High)",
+    "aciklama": "Uzak masaüstü portunun dışa veya genel ağa açık olması, şifre deneme saldırılarına ve zafiyet sömürülerine (örn. BlueKeep) zemin hazırlar."
+  }
+}

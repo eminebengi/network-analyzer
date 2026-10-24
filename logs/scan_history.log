@@ -1,0 +1,730 @@
+2026-08-02 20:06:04,833 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-02 20:06:04,834 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-02 20:06:04,836 - [TARAMA LOG] -  * Restarting with stat
+2026-08-02 20:06:05,186 - [TARAMA LOG] -  * Debugger is active!
+2026-08-02 20:06:05,189 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-02 20:06:45,233 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:06:45] "GET / HTTP/1.1" 200 -
+2026-08-02 20:06:45,268 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:06:45] "GET /style.css HTTP/1.1" 200 -
+2026-08-02 20:06:45,270 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:06:45] "GET /app.js HTTP/1.1" 200 -
+2026-08-02 20:07:01,910 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:01] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-02 20:07:01,945 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:01] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-02 20:07:01,957 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:01] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-02 20:07:13,320 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:13] "GET /api/check-auth HTTP/1.1" 200 -
+2026-08-02 20:07:13,411 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-02 20:07:17,478 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:17] "POST /api/logout HTTP/1.1" 200 -
+2026-08-02 20:07:17,501 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:17] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-02 20:07:17,522 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:17] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-02 20:07:17,523 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:17] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-02 20:07:17,547 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:17] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-02 20:07:38,802 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:38] "POST /api/login HTTP/1.1" 200 -
+2026-08-02 20:07:51,744 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-02 20:07:52,551 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-02 20:07:52,561 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:07:52] "POST /api/scan HTTP/1.1" 200 -
+2026-08-02 20:19:55,633 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:19:55] "GET / HTTP/1.1" 200 -
+2026-08-02 20:19:55,664 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:19:55] "GET /style.css HTTP/1.1" 200 -
+2026-08-02 20:19:55,666 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:19:55] "GET /app.js HTTP/1.1" 200 -
+2026-08-02 20:19:56,021 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:19:56] "GET /api/check-auth HTTP/1.1" 200 -
+2026-08-02 20:20:08,331 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:20:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-02 20:21:50,188 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:21:50] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-02 20:21:50,217 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:21:50] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-02 20:21:50,228 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:21:50] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-02 20:21:50,365 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:21:50] "GET /api/check-auth HTTP/1.1" 200 -
+2026-08-02 20:24:45,381 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-02 20:24:45,381 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-02 20:24:45,382 - [TARAMA LOG] -  * Restarting with stat
+2026-08-02 20:24:45,740 - [TARAMA LOG] -  * Debugger is active!
+2026-08-02 20:24:45,743 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-02 20:32:28,946 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\server.py', reloading
+2026-08-02 20:32:29,020 - [TARAMA LOG] -  * Restarting with stat
+2026-08-02 20:33:48,057 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.103.243:5000
+2026-08-02 20:33:48,057 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-02 20:33:48,058 - [TARAMA LOG] -  * Restarting with stat
+2026-08-02 20:33:48,435 - [TARAMA LOG] -  * Debugger is active!
+2026-08-02 20:33:48,437 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-02 20:34:16,716 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.103.243:5000
+2026-08-02 20:34:16,716 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-02 20:34:16,718 - [TARAMA LOG] -  * Restarting with stat
+2026-08-02 20:34:17,085 - [TARAMA LOG] -  * Debugger is active!
+2026-08-02 20:34:17,088 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-02 20:34:31,754 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:34:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-08-02 20:34:32,158 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:34:32] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-08-02 20:34:32,161 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:34:32] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-08-02 20:34:32,215 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:34:32] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=a8cY7Pjir1uDh1HUoT1Z HTTP/1.1" 200 -
+2026-08-02 20:34:32,237 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:34:32] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-08-02 20:34:39,318 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:34:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-08-02 20:34:42,774 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:34:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-08-02 20:34:42,800 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-08-02 20:34:42,805 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-08-02 20:34:42,836 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=a8cY7Pjir1uDh1HUoT1Z HTTP/1.1[0m" 304 -
+2026-08-02 20:38:42,364 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.103.243:5000
+2026-08-02 20:38:42,364 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-02 20:38:42,365 - [TARAMA LOG] -  * Restarting with stat
+2026-08-02 20:38:42,719 - [TARAMA LOG] -  * Debugger is active!
+2026-08-02 20:38:42,722 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-02 20:38:49,351 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:38:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-08-02 20:38:49,673 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:38:49] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-08-02 20:38:49,674 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:38:49] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-08-02 20:38:49,740 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:38:49] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=ImaXzvX2pCaum9Aashe5 HTTP/1.1" 200 -
+2026-08-02 20:38:49,752 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:38:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-08-02 20:47:36,578 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\server.py', reloading
+2026-08-02 20:47:36,653 - [TARAMA LOG] -  * Restarting with stat
+2026-08-02 20:49:03,055 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.103.243:5000
+2026-08-02 20:49:03,055 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-02 20:49:03,056 - [TARAMA LOG] -  * Restarting with stat
+2026-08-02 20:49:03,431 - [TARAMA LOG] -  * Debugger is active!
+2026-08-02 20:49:03,434 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-02 20:49:09,775 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-08-02 20:49:10,074 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-08-02 20:49:10,075 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-08-02 20:49:10,142 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:10] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=mBYVbeNQCufb20nVLRqF HTTP/1.1" 200 -
+2026-08-02 20:49:10,162 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-08-02 20:49:15,963 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-08-02 20:49:15,979 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:15] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-08-02 20:49:15,981 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:15] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-08-02 20:49:15,996 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:15] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=mBYVbeNQCufb20nVLRqF HTTP/1.1" 200 -
+2026-08-02 20:49:16,014 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:16] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-08-02 20:49:23,096 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-08-02 20:49:23,112 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:23] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-08-02 20:49:23,118 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:23] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-08-02 20:49:23,134 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:23] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=mBYVbeNQCufb20nVLRqF HTTP/1.1" 200 -
+2026-08-02 20:49:23,151 - [TARAMA LOG] - 127.0.0.1 - - [02/Aug/2026 20:49:23] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-08-02 20:57:22,891 - [TARAMA LOG] - 192.168.104.243 - - [02/Aug/2026 20:57:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-08-02 20:57:31,148 - [TARAMA LOG] - 192.168.104.243 - - [02/Aug/2026 20:57:31] "[33mGET /loginMsg.js HTTP/1.1[0m" 404 -
+2026-08-02 20:57:31,155 - [TARAMA LOG] - 192.168.104.243 - - [02/Aug/2026 20:57:31] "[33mGET /cgi/get.cgi?cmd=home_login HTTP/1.1[0m" 404 -
+2026-08-02 20:57:32,438 - [TARAMA LOG] - 192.168.104.243 - - [02/Aug/2026 20:57:32] "[33mGET /rootDesc.xml HTTP/1.1[0m" 404 -
+2026-08-03 10:30:05,525 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\server.py', reloading
+2026-08-03 10:30:05,643 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 10:31:11,426 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-03 10:31:11,427 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-03 10:31:11,428 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 10:31:11,700 - [TARAMA LOG] -  * Debugger is active!
+2026-08-03 10:31:11,702 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-03 10:31:23,384 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:31:23] "GET / HTTP/1.1" 200 -
+2026-08-03 10:31:23,398 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:31:23] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-03 10:31:23,403 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:31:23] "GET /app.js HTTP/1.1" 200 -
+2026-08-03 10:31:23,423 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:31:23] "GET /api/check-auth HTTP/1.1" 200 -
+2026-08-03 10:31:25,400 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:31:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-03 10:31:29,981 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.0.0/16
+2026-08-03 10:31:29,988 - [TARAMA LOG] - Nmap Taraması Başarısız ('nmap program was not found in path. PATH is : C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\Uzman\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.2.3\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\Uzman\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity IDE\\bin'). Socket moduna geçiliyor.
+2026-08-03 10:31:29,988 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-03 10:31:30,793 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-03 10:31:30,797 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:31:30] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 10:32:00,582 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:32:00] "POST /api/logout HTTP/1.1" 200 -
+2026-08-03 10:32:00,604 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:32:00] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-03 10:32:00,618 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:32:00] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-03 10:32:00,623 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:32:00] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-03 10:32:00,645 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:32:00] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-03 10:32:09,510 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:32:09] "POST /api/login HTTP/1.1" 200 -
+2026-08-03 10:32:24,583 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-03 10:32:25,389 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-03 10:32:25,393 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 10:32:25] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 10:53:35,732 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\src\\analyzer.py', reloading
+2026-08-03 10:53:35,792 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 10:53:36,277 - [TARAMA LOG] -  * Debugger is active!
+2026-08-03 10:53:36,281 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-03 10:54:11,583 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\src\\scanner.py', reloading
+2026-08-03 10:54:11,658 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 10:54:11,970 - [TARAMA LOG] -  * Debugger is active!
+2026-08-03 10:54:11,972 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-03 10:54:45,234 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\main.py', reloading
+2026-08-03 10:54:45,309 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 10:54:45,599 - [TARAMA LOG] -  * Debugger is active!
+2026-08-03 10:54:45,601 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-03 10:54:47,626 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\src\\reporter.py', reloading
+2026-08-03 10:54:47,665 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 10:54:47,963 - [TARAMA LOG] -  * Debugger is active!
+2026-08-03 10:54:47,966 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-03 10:55:29,304 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\server.py', reloading
+2026-08-03 10:55:29,368 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 10:55:29,715 - [TARAMA LOG] -  * Debugger is active!
+2026-08-03 10:55:29,717 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-03 10:55:30,733 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\tests\\test_analyzer.py', reloading
+2026-08-03 10:55:30,780 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 10:55:31,067 - [TARAMA LOG] -  * Debugger is active!
+2026-08-03 10:55:31,069 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-03 11:01:28,674 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:01:28] "GET / HTTP/1.1" 200 -
+2026-08-03 11:01:28,698 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:01:28] "GET /style.css HTTP/1.1" 200 -
+2026-08-03 11:01:28,700 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:01:28] "GET /app.js HTTP/1.1" 200 -
+2026-08-03 11:01:28,994 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:01:28] "GET /api/check-auth HTTP/1.1" 200 -
+2026-08-03 11:01:29,240 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:01:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-03 11:02:05,684 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-03 11:02:05,684 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-03 11:02:05,685 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 11:02:05,951 - [TARAMA LOG] -  * Debugger is active!
+2026-08-03 11:02:05,954 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-03 11:02:16,275 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:16] "GET / HTTP/1.1" 200 -
+2026-08-03 11:02:16,302 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:16] "GET /style.css HTTP/1.1" 200 -
+2026-08-03 11:02:16,306 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:16] "GET /app.js HTTP/1.1" 200 -
+2026-08-03 11:02:16,515 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:16] "GET /api/check-auth HTTP/1.1" 200 -
+2026-08-03 11:02:16,803 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-03 11:02:20,482 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:20] "POST /api/logout HTTP/1.1" 200 -
+2026-08-03 11:02:20,499 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:20] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-03 11:02:20,526 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:20] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-03 11:02:20,528 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:20] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-03 11:02:20,551 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:20] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-03 11:02:32,900 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:32] "POST /api/login HTTP/1.1" 200 -
+2026-08-03 11:02:46,325 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-03 11:02:48,763 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-03 11:02:48,765 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:02:48] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 11:08:33,283 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:08:33] "POST /api/logout HTTP/1.1" 200 -
+2026-08-03 11:08:33,301 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:08:33] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-03 11:08:33,319 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:08:33] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-03 11:08:33,324 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:08:33] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-03 11:08:33,342 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:08:33] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-03 11:09:03,190 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 11:09:03] "POST /api/login HTTP/1.1" 200 -
+2026-08-03 14:30:10,978 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-03 14:30:10,978 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-03 14:30:10,981 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 14:30:11,650 - [TARAMA LOG] -  * Debugger is active!
+2026-08-03 14:30:11,654 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-03 14:30:27,532 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:30:27] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-03 14:30:27,568 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:30:27] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-03 14:30:27,575 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:30:27] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-03 14:30:27,620 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:30:27] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-03 14:30:31,394 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:30:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-03 14:31:10,396 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:31:10] "POST /api/login HTTP/1.1" 200 -
+2026-08-03 14:31:29,851 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-03 14:31:31,969 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-03 14:31:31,974 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:31:31] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 14:32:01,267 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-03 14:32:03,384 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-03 14:32:03,395 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:32:03] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 14:32:31,981 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:32:31] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-03 14:32:32,016 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:32:32] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-03 14:32:32,019 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:32:32] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-03 14:32:32,073 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:32:32] "GET /api/check-auth HTTP/1.1" 200 -
+2026-08-03 14:32:46,328 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-03 14:32:48,452 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-03 14:32:48,458 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:32:48] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 14:33:13,902 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:33:13] "POST /api/logout HTTP/1.1" 200 -
+2026-08-03 14:33:13,932 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:33:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-03 14:33:13,969 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:33:13] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-03 14:33:13,971 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:33:13] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-03 14:33:14,010 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 14:33:14] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-03 18:25:10,239 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-03 18:25:10,241 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-03 18:25:10,245 - [TARAMA LOG] -  * Restarting with stat
+2026-08-03 18:25:11,070 - [TARAMA LOG] -  * Debugger is active!
+2026-08-03 18:25:11,079 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-03 18:25:51,811 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:25:51] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-03 18:25:51,856 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:25:51] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-03 18:25:51,860 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:25:51] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-03 18:25:52,145 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:25:52] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-03 18:25:52,357 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:25:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-03 18:26:08,213 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:26:08] "POST /api/login HTTP/1.1" 200 -
+2026-08-03 18:26:29,831 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.0.0/16
+2026-08-03 18:26:29,842 - [TARAMA LOG] - Nmap Taraması Başarısız ('nmap program was not found in path. PATH is : C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\Uzman\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.2.3\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\Uzman\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity IDE\\bin'). Socket moduna geçiliyor.
+2026-08-03 18:26:29,843 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-03 18:26:31,959 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-03 18:26:31,964 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:26:31] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 18:27:00,375 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.1.0/24
+2026-08-03 18:27:00,385 - [TARAMA LOG] - Nmap Taraması Başarısız ('nmap program was not found in path. PATH is : C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\Uzman\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.2.3\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\Uzman\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity IDE\\bin'). Socket moduna geçiliyor.
+2026-08-03 18:27:00,385 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=10.20.1.0/24
+2026-08-03 18:27:00,412 - [TARAMA LOG] - Hedef 10.20.1.0/24 üzerinde açık port bulunamadı. Cihaz güvenli görünüyor.
+2026-08-03 18:27:00,507 - [TARAMA LOG] - Socket Taraması Tamamlandı: 10.20.1.0/24 - Bulunan Açık Port Sayısı: 0
+2026-08-03 18:27:00,512 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:27:00] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 18:27:19,055 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.0.0/16
+2026-08-03 18:27:19,064 - [TARAMA LOG] - Nmap Taraması Başarısız ('nmap program was not found in path. PATH is : C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\Uzman\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.2.3\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\Uzman\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity IDE\\bin'). Socket moduna geçiliyor.
+2026-08-03 18:27:19,065 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-03 18:27:21,171 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-03 18:27:21,178 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:27:21] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 18:27:31,185 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.3.0/24
+2026-08-03 18:27:31,195 - [TARAMA LOG] - Nmap Taraması Başarısız ('nmap program was not found in path. PATH is : C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\Uzman\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.2.3\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\Uzman\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity IDE\\bin'). Socket moduna geçiliyor.
+2026-08-03 18:27:31,196 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=10.20.3.0/24
+2026-08-03 18:27:31,212 - [TARAMA LOG] - Hedef 10.20.3.0/24 üzerinde açık port bulunamadı. Cihaz güvenli görünüyor.
+2026-08-03 18:27:31,357 - [TARAMA LOG] - Socket Taraması Tamamlandı: 10.20.3.0/24 - Bulunan Açık Port Sayısı: 0
+2026-08-03 18:27:31,362 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:27:31] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 18:27:50,006 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.2.0/24
+2026-08-03 18:27:50,017 - [TARAMA LOG] - Nmap Taraması Başarısız ('nmap program was not found in path. PATH is : C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\Uzman\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.2.3\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\Uzman\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity IDE\\bin'). Socket moduna geçiliyor.
+2026-08-03 18:27:50,018 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=10.20.2.0/24
+2026-08-03 18:27:50,040 - [TARAMA LOG] - Hedef 10.20.2.0/24 üzerinde açık port bulunamadı. Cihaz güvenli görünüyor.
+2026-08-03 18:27:50,115 - [TARAMA LOG] - Socket Taraması Tamamlandı: 10.20.2.0/24 - Bulunan Açık Port Sayısı: 0
+2026-08-03 18:27:50,120 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:27:50] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 18:28:02,674 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.1.0/24
+2026-08-03 18:28:02,683 - [TARAMA LOG] - Nmap Taraması Başarısız ('nmap program was not found in path. PATH is : C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\Uzman\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.2.3\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\Uzman\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity IDE\\bin'). Socket moduna geçiliyor.
+2026-08-03 18:28:02,684 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=10.20.1.0/24
+2026-08-03 18:28:02,698 - [TARAMA LOG] - Hedef 10.20.1.0/24 üzerinde açık port bulunamadı. Cihaz güvenli görünüyor.
+2026-08-03 18:28:02,755 - [TARAMA LOG] - Socket Taraması Tamamlandı: 10.20.1.0/24 - Bulunan Açık Port Sayısı: 0
+2026-08-03 18:28:02,765 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:28:02] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 18:28:43,249 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.0.0/16
+2026-08-03 18:28:43,258 - [TARAMA LOG] - Nmap Taraması Başarısız ('nmap program was not found in path. PATH is : C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\Uzman\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.2.3\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\Uzman\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Uzman\\AppData\\Local\\Programs\\Antigravity IDE\\bin'). Socket moduna geçiliyor.
+2026-08-03 18:28:43,258 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-03 18:28:45,357 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-03 18:28:45,360 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:28:45] "POST /api/scan HTTP/1.1" 200 -
+2026-08-03 18:28:55,326 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:28:55] "POST /api/logout HTTP/1.1" 200 -
+2026-08-03 18:28:55,362 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:28:55] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-03 18:28:55,388 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:28:55] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-03 18:28:55,394 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:28:55] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-03 18:28:55,438 - [TARAMA LOG] - 127.0.0.1 - - [03/Aug/2026 18:28:55] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-04 10:34:45,299 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-04 10:34:45,299 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-04 10:34:45,305 - [TARAMA LOG] -  * Restarting with stat
+2026-08-04 10:34:45,673 - [TARAMA LOG] -  * Debugger is active!
+2026-08-04 10:34:45,681 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-04 10:35:02,465 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 10:35:02] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-04 10:35:02,483 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 10:35:02] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-04 10:35:02,488 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 10:35:02] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-04 10:35:02,511 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 10:35:02] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-04 10:35:04,112 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 10:35:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-04 10:35:15,806 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 10:35:15] "POST /api/login HTTP/1.1" 200 -
+2026-08-04 10:35:30,521 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-04 10:35:32,624 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-04 10:35:32,627 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 10:35:32] "POST /api/scan HTTP/1.1" 200 -
+2026-08-04 11:09:23,582 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-04 11:09:23,582 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-04 11:09:23,584 - [TARAMA LOG] -  * Restarting with stat
+2026-08-04 11:09:23,929 - [TARAMA LOG] -  * Debugger is active!
+2026-08-04 11:09:23,931 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-04 11:09:41,103 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:09:41] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-04 11:09:41,121 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:09:41] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-04 11:09:41,126 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:09:41] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-04 11:09:41,151 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:09:41] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-04 11:09:41,346 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:09:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-04 11:09:58,740 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:09:58] "POST /api/login HTTP/1.1" 200 -
+2026-08-04 11:10:20,722 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.2.0/24
+2026-08-04 11:12:33,028 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:12:33] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-04 11:12:33,054 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:12:33] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-04 11:12:33,071 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:12:33] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-04 11:12:33,096 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:12:33] "GET /api/check-auth HTTP/1.1" 200 -
+2026-08-04 11:14:29,757 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-04 11:14:31,868 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-04 11:14:31,874 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:14:31] "POST /api/scan HTTP/1.1" 200 -
+2026-08-04 11:14:57,681 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-04 11:14:59,774 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-04 11:14:59,778 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 11:14:59] "POST /api/scan HTTP/1.1" 200 -
+2026-08-04 11:15:10,467 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.3.0/24
+2026-08-04 13:31:41,177 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:31:41] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-04 13:31:41,234 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:31:41] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-04 13:31:41,249 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:31:41] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-04 13:31:41,273 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:31:41] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-04 13:31:43,481 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:31:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-04 13:31:52,862 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:31:52] "POST /api/login HTTP/1.1" 200 -
+2026-08-04 13:32:02,155 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.3.0/24
+2026-08-04 13:37:38,225 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\src\\scanner.py', reloading
+2026-08-04 13:37:38,315 - [TARAMA LOG] -  * Restarting with stat
+2026-08-04 13:37:38,746 - [TARAMA LOG] -  * Debugger is active!
+2026-08-04 13:37:38,750 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-04 13:38:34,378 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-04 13:38:34,378 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-04 13:38:34,379 - [TARAMA LOG] -  * Restarting with stat
+2026-08-04 13:38:34,785 - [TARAMA LOG] -  * Debugger is active!
+2026-08-04 13:38:34,790 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-04 13:38:40,566 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:38:40] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-04 13:38:40,595 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:38:40] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-04 13:39:08,843 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:08] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-04 13:39:08,875 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:08] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-04 13:39:08,891 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:08] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-04 13:39:08,908 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:08] "GET /api/check-auth HTTP/1.1" 200 -
+2026-08-04 13:39:18,312 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:18] "POST /api/logout HTTP/1.1" 200 -
+2026-08-04 13:39:18,334 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:18] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-04 13:39:18,361 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:18] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-04 13:39:23,354 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:23] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-04 13:39:23,385 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:23] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-04 13:39:23,400 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:23] "GET /app.js HTTP/1.1" 200 -
+2026-08-04 13:39:23,423 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:23] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-04 13:39:37,761 - [TARAMA LOG] - 127.0.0.1 - - [04/Aug/2026 13:39:37] "POST /api/login HTTP/1.1" 200 -
+2026-08-04 13:39:40,917 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.0.0/16
+2026-08-05 10:21:33,188 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-05 10:21:33,188 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-05 10:21:33,192 - [TARAMA LOG] -  * Restarting with stat
+2026-08-05 10:21:33,555 - [TARAMA LOG] -  * Debugger is active!
+2026-08-05 10:21:33,558 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-05 10:21:41,293 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:21:41] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-05 10:21:41,316 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:21:41] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-05 10:21:41,322 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:21:41] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-05 10:21:41,341 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:21:41] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-05 10:21:43,031 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:21:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-05 10:21:58,911 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:21:58] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-08-05 10:22:05,665 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:22:05] "POST /api/login HTTP/1.1" 200 -
+2026-08-05 10:27:08,244 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=10.195.53.247
+2026-08-05 10:27:09,405 - [TARAMA LOG] - Socket Taraması Tamamlandı: 10.195.53.247 - Bulunan Açık Port Sayısı: 3
+2026-08-05 10:27:09,411 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:27:09] "POST /api/scan HTTP/1.1" 200 -
+2026-08-05 10:30:12,848 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:30:12] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-05 10:30:12,885 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:30:12] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-05 10:30:12,896 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:30:12] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-05 10:30:12,915 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:30:12] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-05 10:30:15,556 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:30:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-05 10:30:26,280 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:30:26] "POST /api/login HTTP/1.1" 200 -
+2026-08-05 10:31:15,410 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=10.20.1.0/24
+2026-08-05 10:31:15,436 - [TARAMA LOG] - Hedef 10.20.1.0/24 üzerinde açık port bulunamadı. Cihaz güvenli görünüyor.
+2026-08-05 10:31:15,498 - [TARAMA LOG] - Socket Taraması Tamamlandı: 10.20.1.0/24 - Bulunan Açık Port Sayısı: 0
+2026-08-05 10:31:15,504 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:31:15] "POST /api/scan HTTP/1.1" 200 -
+2026-08-05 10:34:09,027 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:34:09] "POST /api/logout HTTP/1.1" 200 -
+2026-08-05 10:34:09,046 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:34:09] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-05 10:34:09,066 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:34:09] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-05 10:34:09,067 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:34:09] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-05 10:34:09,098 - [TARAMA LOG] - 127.0.0.1 - - [05/Aug/2026 10:34:09] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-10 13:04:47,079 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-10 13:04:47,079 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-10 13:04:47,083 - [TARAMA LOG] -  * Restarting with stat
+2026-08-10 13:04:47,493 - [TARAMA LOG] -  * Debugger is active!
+2026-08-10 13:04:47,496 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-10 13:04:57,965 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:04:57] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-10 13:04:57,988 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:04:57] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-10 13:04:57,995 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:04:57] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-10 13:04:58,200 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:04:58] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-10 13:05:01,216 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:05:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-10 13:05:14,393 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:05:14] "POST /api/login HTTP/1.1" 200 -
+2026-08-10 13:44:17,464 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:44:17] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-10 13:44:17,500 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:44:17] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-10 13:44:17,510 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:44:17] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-10 13:44:17,534 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:44:17] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-10 13:44:19,877 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:44:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-10 13:44:32,719 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:44:32] "POST /api/login HTTP/1.1" 200 -
+2026-08-10 13:44:50,232 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-10 13:44:52,466 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-10 13:44:52,472 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 13:44:52] "POST /api/scan HTTP/1.1" 200 -
+2026-08-10 13:45:23,682 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.20.3.0/24
+2026-08-10 14:53:16,383 - [TARAMA LOG] - 127.0.0.1 - - [10/Aug/2026 14:53:16] "POST /api/scan HTTP/1.1" 200 -
+2026-08-11 10:14:05,212 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-11 10:14:05,213 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-11 10:14:05,217 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 10:14:05,567 - [TARAMA LOG] -  * Debugger is active!
+2026-08-11 10:14:05,571 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-11 10:23:58,768 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\src\\switch_locator.py', reloading
+2026-08-11 10:23:58,894 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 10:23:59,373 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\src\\switch_locator.py', reloading
+2026-08-11 10:23:59,613 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 10:23:59,864 - [TARAMA LOG] -  * Debugger is active!
+2026-08-11 10:23:59,870 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-11 10:24:00,478 - [TARAMA LOG] -  * Debugger is active!
+2026-08-11 10:24:00,485 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-11 10:37:42,535 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\src\\scanner.py', reloading
+2026-08-11 10:37:42,661 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 10:37:43,028 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\src\\scanner.py', reloading
+2026-08-11 10:37:43,145 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 10:37:43,678 - [TARAMA LOG] -  * Debugger is active!
+2026-08-11 10:37:43,691 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-11 10:37:44,043 - [TARAMA LOG] -  * Debugger is active!
+2026-08-11 10:37:44,049 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-11 10:37:51,158 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\server.py', reloading
+2026-08-11 10:37:51,284 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 10:37:51,821 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\server.py', reloading
+2026-08-11 10:37:51,965 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 10:37:52,184 - [TARAMA LOG] -  * Debugger is active!
+2026-08-11 10:37:52,190 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-11 10:37:52,765 - [TARAMA LOG] -  * Debugger is active!
+2026-08-11 10:37:52,771 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-11 10:42:11,273 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:42:11] "GET / HTTP/1.1" 200 -
+2026-08-11 10:42:11,315 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:42:11] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-11 10:42:11,322 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:42:11] "GET /app.js HTTP/1.1" 200 -
+2026-08-11 10:42:11,377 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:42:11] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-11 10:42:13,032 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:42:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-11 10:42:23,301 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:42:23] "POST /api/login HTTP/1.1" 200 -
+2026-08-11 10:53:37,092 - [TARAMA LOG] - pysnmp kütüphanesi bulunamadı. Simülasyon (Mock) modu aktif.
+2026-08-11 10:53:37,093 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-11 10:53:39,265 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-11 10:53:39,271 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:53:39] "POST /api/scan HTTP/1.1" 200 -
+2026-08-11 10:54:56,288 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:54:56] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-11 10:54:56,345 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:54:56] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-11 10:54:56,354 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:54:56] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-11 10:54:56,404 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:54:56] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-11 10:54:58,535 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 10:54:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-11 11:02:27,187 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:02:27] "POST /api/login HTTP/1.1" 200 -
+2026-08-11 11:13:15,737 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\server.py', reloading
+2026-08-11 11:13:15,816 - [TARAMA LOG] -  * Detected change in 'C:\\Users\\Uzman\\Desktop\\hospital_network_analyzer\\server.py', reloading
+2026-08-11 11:13:15,881 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 11:13:15,979 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 11:26:00,970 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-11 11:26:00,970 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-11 11:26:00,971 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 11:26:01,266 - [TARAMA LOG] -  * Debugger is active!
+2026-08-11 11:26:01,269 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-11 11:26:17,842 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:26:17] "GET / HTTP/1.1" 200 -
+2026-08-11 11:26:17,867 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:26:17] "GET /style.css HTTP/1.1" 200 -
+2026-08-11 11:26:38,697 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:26:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-11 11:26:43,980 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:26:43] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-11 11:26:44,022 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:26:44] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-11 11:26:44,263 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:26:44] "GET /app.js HTTP/1.1" 200 -
+2026-08-11 11:26:44,274 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:26:44] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-11 11:27:07,100 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:27:07] "POST /api/login HTTP/1.1" 200 -
+2026-08-11 11:28:53,736 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:28:53] "POST /api/scan HTTP/1.1" 200 -
+2026-08-11 11:28:53,744 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:28:53] "GET /api/scan-status/50a849ba-ad3a-4990-851c-e6c13a180c3d HTTP/1.1" 200 -
+2026-08-11 11:28:53,750 - [TARAMA LOG] - pysnmp kütüphanesi bulunamadı. Simülasyon (Mock) modu aktif.
+2026-08-11 11:28:53,751 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-11 11:28:55,759 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:28:55] "GET /api/scan-status/50a849ba-ad3a-4990-851c-e6c13a180c3d HTTP/1.1" 200 -
+2026-08-11 11:28:55,846 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-11 11:28:57,772 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:28:57] "GET /api/scan-status/50a849ba-ad3a-4990-851c-e6c13a180c3d HTTP/1.1" 200 -
+2026-08-11 11:36:37,528 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:36:37] "GET / HTTP/1.1" 200 -
+2026-08-11 11:36:37,610 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:36:37] "GET /style.css HTTP/1.1" 200 -
+2026-08-11 11:36:37,615 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:36:37] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-11 11:36:37,636 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:36:37] "GET /api/check-auth HTTP/1.1" 200 -
+2026-08-11 11:38:51,619 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-11 11:38:51,619 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-11 11:38:51,620 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 11:38:51,917 - [TARAMA LOG] -  * Debugger is active!
+2026-08-11 11:38:51,921 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-11 11:39:08,593 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:39:08] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-11 11:39:08,613 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:39:08] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-11 11:39:08,619 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:39:08] "GET /app.js HTTP/1.1" 200 -
+2026-08-11 11:39:08,635 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:39:08] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-11 11:39:11,194 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:39:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-11 11:39:23,664 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 11:39:23] "POST /api/login HTTP/1.1" 200 -
+2026-08-11 12:29:17,845 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-11 12:29:17,845 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-11 12:29:17,846 - [TARAMA LOG] -  * Restarting with stat
+2026-08-11 12:29:18,125 - [TARAMA LOG] -  * Debugger is active!
+2026-08-11 12:29:18,130 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-11 12:29:31,262 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 12:29:31] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-11 12:29:31,288 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 12:29:31] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-11 12:29:31,289 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 12:29:31] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-11 12:29:31,308 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 12:29:31] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-11 12:30:02,162 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 12:30:02] "POST /api/login HTTP/1.1" 200 -
+2026-08-11 12:33:23,537 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 12:33:23] "POST /api/scan HTTP/1.1" 200 -
+2026-08-11 12:33:23,543 - [TARAMA LOG] - pysnmp kütüphanesi bulunamadı. Simülasyon (Mock) modu aktif.
+2026-08-11 12:33:23,543 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=10.85.16.49
+2026-08-11 12:33:23,545 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 12:33:23] "GET /api/scan-status/68316074-3e4d-452e-aae9-e317e0082421 HTTP/1.1" 200 -
+2026-08-11 12:33:24,619 - [TARAMA LOG] - Socket Taraması Tamamlandı: 10.85.16.49 - Bulunan Açık Port Sayısı: 3
+2026-08-11 12:33:25,806 - [TARAMA LOG] - 127.0.0.1 - - [11/Aug/2026 12:33:25] "GET /api/scan-status/68316074-3e4d-452e-aae9-e317e0082421 HTTP/1.1" 200 -
+2026-08-12 09:50:40,472 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-12 09:50:40,473 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-12 09:50:40,477 - [TARAMA LOG] -  * Restarting with stat
+2026-08-12 09:50:40,841 - [TARAMA LOG] -  * Debugger is active!
+2026-08-12 09:50:40,844 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-12 09:50:52,960 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 09:50:52] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-12 09:50:52,979 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 09:50:52] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-12 09:50:52,989 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 09:50:52] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-12 09:50:53,008 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 09:50:53] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-12 09:50:54,969 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 09:50:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-12 09:51:13,476 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 09:51:13] "POST /api/login HTTP/1.1" 200 -
+2026-08-12 10:42:35,850 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:42:35] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-12 10:42:35,881 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:42:35] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-12 10:42:35,892 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:42:35] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-12 10:42:35,915 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:42:35] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-12 10:42:37,865 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:42:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-12 10:42:51,628 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:42:51] "POST /api/login HTTP/1.1" 200 -
+2026-08-12 10:43:09,459 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:43:09] "POST /api/scan HTTP/1.1" 200 -
+2026-08-12 10:43:09,474 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:43:09] "GET /api/scan-status/5516f103-57fe-424c-965f-9bb100df0e99 HTTP/1.1" 200 -
+2026-08-12 10:43:09,483 - [TARAMA LOG] - pysnmp kütüphanesi bulunamadı. Simülasyon (Mock) modu aktif.
+2026-08-12 10:43:09,484 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-12 10:43:11,495 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:43:11] "GET /api/scan-status/5516f103-57fe-424c-965f-9bb100df0e99 HTTP/1.1" 200 -
+2026-08-12 10:43:11,617 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-12 10:43:13,519 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:43:13] "GET /api/scan-status/5516f103-57fe-424c-965f-9bb100df0e99 HTTP/1.1" 200 -
+2026-08-12 10:43:26,564 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:43:26] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2026-08-12 10:44:02,215 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:44:02] "POST /api/logout HTTP/1.1" 200 -
+2026-08-12 10:44:02,239 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:44:02] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-12 10:44:02,256 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:44:02] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-12 10:44:02,260 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:44:02] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-12 10:44:02,272 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:44:02] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-12 10:44:13,968 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 10:44:13] "POST /api/login HTTP/1.1" 200 -
+2026-08-12 11:25:48,689 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-12 11:25:48,689 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-12 11:25:48,689 - [TARAMA LOG] -  * Restarting with stat
+2026-08-12 11:25:49,042 - [TARAMA LOG] -  * Debugger is active!
+2026-08-12 11:25:49,045 - [TARAMA LOG] -  * Debugger PIN: 132-980-977
+2026-08-12 11:25:59,420 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:25:59] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-12 11:25:59,449 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:25:59] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-12 11:25:59,459 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:25:59] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-12 11:25:59,482 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:25:59] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-12 11:26:05,371 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:26:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-12 11:26:17,735 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:26:17] "POST /api/login HTTP/1.1" 200 -
+2026-08-12 11:30:12,049 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:12] "POST /api/scan HTTP/1.1" 200 -
+2026-08-12 11:30:12,060 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:12] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:12,063 - [TARAMA LOG] - pysnmp kütüphanesi bulunamadı. Simülasyon (Mock) modu aktif.
+2026-08-12 11:30:12,064 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.80.5.2/24
+2026-08-12 11:30:14,074 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:14] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:16,090 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:16] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:18,106 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:18] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:20,122 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:20] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:22,137 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:22] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:24,151 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:24] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:26,163 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:26] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:28,179 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:28] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:30,202 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:30] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:32,216 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:32] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:34,229 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:34] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:36,500 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:36] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:38,517 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:38] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:30:40,533 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:30:40] "GET /api/scan-status/7b5dded9-7beb-4a89-be27-7c520b1aed22 HTTP/1.1" 200 -
+2026-08-12 11:32:25,332 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:25] "POST /api/scan HTTP/1.1" 200 -
+2026-08-12 11:32:25,338 - [TARAMA LOG] - pysnmp kütüphanesi bulunamadı. Simülasyon (Mock) modu aktif.
+2026-08-12 11:32:25,343 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:25] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:25,343 - [TARAMA LOG] - Nmap Subnet Taraması Başlatıldı: Subnet=10.80.5.2/24
+2026-08-12 11:32:27,359 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:27] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:29,371 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:29] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:31,387 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:31] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:33,400 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:33] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:35,423 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:35] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:37,438 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:37] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:39,455 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:39] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:41,469 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:41] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:43,485 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:43] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:45,501 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:45] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:47,771 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:47] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:49,785 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:49] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:51,801 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:51] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:53,814 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:53] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:55,827 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:55] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:57,837 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:57] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-12 11:32:59,858 - [TARAMA LOG] - 127.0.0.1 - - [12/Aug/2026 11:32:59] "GET /api/scan-status/be1a416a-4dfa-4d82-bed7-ed91e0875017 HTTP/1.1" 200 -
+2026-08-20 10:40:30,623 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-20 10:40:30,623 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-20 10:40:30,626 - [TARAMA LOG] -  * Restarting with stat
+2026-08-20 10:40:30,899 - [TARAMA LOG] -  * Debugger is active!
+2026-08-20 10:40:30,904 - [TARAMA LOG] -  * Debugger PIN: 228-722-542
+2026-08-20 10:40:43,669 - [TARAMA LOG] - 127.0.0.1 - - [20/Aug/2026 10:40:43] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-20 10:40:43,682 - [TARAMA LOG] - 127.0.0.1 - - [20/Aug/2026 10:40:43] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-20 10:40:43,762 - [TARAMA LOG] - 127.0.0.1 - - [20/Aug/2026 10:40:43] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-20 10:40:44,179 - [TARAMA LOG] - 127.0.0.1 - - [20/Aug/2026 10:40:44] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-20 10:40:45,730 - [TARAMA LOG] - 127.0.0.1 - - [20/Aug/2026 10:40:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-20 10:40:57,989 - [TARAMA LOG] - 127.0.0.1 - - [20/Aug/2026 10:40:57] "POST /api/login HTTP/1.1" 200 -
+2026-08-22 17:36:48,640 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-22 17:36:48,640 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-22 17:36:48,644 - [TARAMA LOG] -  * Restarting with stat
+2026-08-22 17:36:49,019 - [TARAMA LOG] -  * Debugger is active!
+2026-08-22 17:36:49,027 - [TARAMA LOG] -  * Debugger PIN: 228-722-542
+2026-08-22 17:40:38,666 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-22 17:40:38,666 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-22 17:40:38,668 - [TARAMA LOG] -  * Restarting with stat
+2026-08-22 17:40:39,049 - [TARAMA LOG] -  * Debugger is active!
+2026-08-22 17:40:39,052 - [TARAMA LOG] -  * Debugger PIN: 228-722-542
+2026-08-29 13:18:10,696 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-29 13:18:10,697 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-08-29 13:18:10,701 - [TARAMA LOG] -  * Restarting with stat
+2026-08-29 13:18:11,157 - [TARAMA LOG] -  * Debugger is active!
+2026-08-29 13:18:11,161 - [TARAMA LOG] -  * Debugger PIN: 228-722-542
+2026-08-29 13:18:23,026 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:18:23] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-29 13:18:23,052 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:18:23] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-29 13:18:23,061 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:18:23] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-29 13:18:23,498 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:18:23] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-08-29 13:18:24,762 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:18:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-29 13:18:37,728 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:18:37] "POST /api/login HTTP/1.1" 200 -
+2026-08-29 13:18:43,807 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:18:43] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2026-08-29 13:19:34,139 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:19:34] "POST /api/scan HTTP/1.1" 200 -
+2026-08-29 13:19:34,147 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:19:34] "GET /api/scan-status/a737d9d2-4b57-4d0b-a2b1-50545ee6f8e0 HTTP/1.1" 200 -
+2026-08-29 13:19:34,153 - [TARAMA LOG] - pysnmp kütüphanesi bulunamadı. Simülasyon (Mock) modu aktif.
+2026-08-29 13:19:34,154 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-08-29 13:19:36,154 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:19:36] "GET /api/scan-status/a737d9d2-4b57-4d0b-a2b1-50545ee6f8e0 HTTP/1.1" 200 -
+2026-08-29 13:19:36,688 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-08-29 13:19:38,181 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:19:38] "GET /api/scan-status/a737d9d2-4b57-4d0b-a2b1-50545ee6f8e0 HTTP/1.1" 200 -
+2026-08-29 13:20:13,401 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:20:13] "POST /api/logout HTTP/1.1" 200 -
+2026-08-29 13:20:13,422 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:20:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-29 13:20:13,439 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:20:13] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-29 13:20:13,441 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:20:13] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-08-29 13:20:13,469 - [TARAMA LOG] - 127.0.0.1 - - [29/Aug/2026 13:20:13] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-09-01 19:49:01,951 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-01 19:49:01,951 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-09-01 19:49:01,955 - [TARAMA LOG] -  * Restarting with stat
+2026-09-01 19:49:02,329 - [TARAMA LOG] -  * Debugger is active!
+2026-09-01 19:49:02,338 - [TARAMA LOG] -  * Debugger PIN: 184-610-220
+2026-09-01 19:57:07,956 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-01 19:57:07,956 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-09-01 19:57:07,957 - [TARAMA LOG] -  * Restarting with stat
+2026-09-01 19:57:08,324 - [TARAMA LOG] -  * Debugger is active!
+2026-09-01 19:57:08,326 - [TARAMA LOG] -  * Debugger PIN: 184-610-220
+2026-09-01 19:57:22,681 - [TARAMA LOG] - 127.0.0.1 - - [01/Sep/2026 19:57:22] "[36mGET / HTTP/1.1[0m" 304 -
+2026-09-01 19:57:22,718 - [TARAMA LOG] - 127.0.0.1 - - [01/Sep/2026 19:57:22] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-09-01 19:57:22,726 - [TARAMA LOG] - 127.0.0.1 - - [01/Sep/2026 19:57:22] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-09-01 19:57:22,749 - [TARAMA LOG] - 127.0.0.1 - - [01/Sep/2026 19:57:22] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-09-01 19:57:25,685 - [TARAMA LOG] - 127.0.0.1 - - [01/Sep/2026 19:57:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-01 19:57:38,086 - [TARAMA LOG] - 127.0.0.1 - - [01/Sep/2026 19:57:38] "POST /api/login HTTP/1.1" 200 -
+2026-09-01 19:57:43,753 - [TARAMA LOG] - 127.0.0.1 - - [01/Sep/2026 19:57:43] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2026-09-20 14:40:49,285 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-20 14:40:49,285 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-09-20 14:40:49,288 - [TARAMA LOG] -  * Restarting with stat
+2026-09-20 14:40:49,554 - [TARAMA LOG] -  * Debugger is active!
+2026-09-20 14:40:49,558 - [TARAMA LOG] -  * Debugger PIN: 228-722-542
+2026-09-20 14:41:03,164 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:03] "[36mGET / HTTP/1.1[0m" 304 -
+2026-09-20 14:41:03,184 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:03] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-09-20 14:41:03,186 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:03] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-09-20 14:41:03,196 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:03] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-09-20 14:41:03,288 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-20 14:41:17,965 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:17] "POST /api/login HTTP/1.1" 200 -
+2026-09-20 14:41:28,356 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:28] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2026-09-20 14:41:45,426 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:45] "POST /api/logout HTTP/1.1" 200 -
+2026-09-20 14:41:45,447 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:45] "[36mGET / HTTP/1.1[0m" 304 -
+2026-09-20 14:41:45,464 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:45] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-09-20 14:41:45,467 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:45] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-09-20 14:41:45,491 - [TARAMA LOG] - 127.0.0.1 - - [20/Sep/2026 14:41:45] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-10-08 10:05:36,842 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-08 10:05:36,842 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-10-08 10:05:36,846 - [TARAMA LOG] -  * Restarting with stat
+2026-10-08 10:05:37,450 - [TARAMA LOG] -  * Debugger is active!
+2026-10-08 10:05:37,455 - [TARAMA LOG] -  * Debugger PIN: 228-722-542
+2026-10-08 10:22:51,184 - [TARAMA LOG] - 127.0.0.1 - - [08/Oct/2026 10:22:51] "[36mGET / HTTP/1.1[0m" 304 -
+2026-10-08 10:22:51,221 - [TARAMA LOG] - 127.0.0.1 - - [08/Oct/2026 10:22:51] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-10-08 10:22:51,224 - [TARAMA LOG] - 127.0.0.1 - - [08/Oct/2026 10:22:51] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-10-08 10:23:12,225 - [TARAMA LOG] - 127.0.0.1 - - [08/Oct/2026 10:23:12] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-10-08 10:23:12,252 - [TARAMA LOG] - 127.0.0.1 - - [08/Oct/2026 10:23:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-10-08 10:23:26,861 - [TARAMA LOG] - 127.0.0.1 - - [08/Oct/2026 10:23:26] "POST /api/login HTTP/1.1" 200 -
+2026-10-15 14:30:47,760 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-15 14:30:47,761 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-10-15 14:30:47,764 - [TARAMA LOG] -  * Restarting with stat
+2026-10-15 14:30:48,045 - [TARAMA LOG] -  * Debugger is active!
+2026-10-15 14:30:48,050 - [TARAMA LOG] -  * Debugger PIN: 228-722-542
+2026-10-15 14:32:00,136 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:00] "[36mGET / HTTP/1.1[0m" 304 -
+2026-10-15 14:32:00,152 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:00] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-10-15 14:32:00,158 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:00] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-10-15 14:32:00,505 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:00] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-10-15 14:32:00,560 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-10-15 14:32:23,008 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:23] "POST /api/login HTTP/1.1" 200 -
+2026-10-15 14:32:28,494 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:28] "POST /api/logout HTTP/1.1" 200 -
+2026-10-15 14:32:28,516 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:28] "[36mGET / HTTP/1.1[0m" 304 -
+2026-10-15 14:32:28,535 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:28] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-10-15 14:32:28,537 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:28] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-10-15 14:32:28,558 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:28] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-10-15 14:32:44,027 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:32:44] "POST /api/login HTTP/1.1" 200 -
+2026-10-15 14:33:09,496 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:33:09] "POST /api/scan HTTP/1.1" 200 -
+2026-10-15 14:33:09,503 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:33:09] "GET /api/scan-status/d60229b1-dc6a-401c-8232-90e5b6c5e55b HTTP/1.1" 200 -
+2026-10-15 14:33:09,520 - [TARAMA LOG] - pysnmp kütüphanesi bulunamadı. Simülasyon (Mock) modu aktif.
+2026-10-15 14:33:09,521 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-10-15 14:33:11,512 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:33:11] "GET /api/scan-status/d60229b1-dc6a-401c-8232-90e5b6c5e55b HTTP/1.1" 200 -
+2026-10-15 14:33:11,933 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-10-15 14:33:13,526 - [TARAMA LOG] - 127.0.0.1 - - [15/Oct/2026 14:33:13] "GET /api/scan-status/d60229b1-dc6a-401c-8232-90e5b6c5e55b HTTP/1.1" 200 -
+2026-10-24 16:46:21,168 - [TARAMA LOG] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-24 16:46:21,168 - [TARAMA LOG] - [33mPress CTRL+C to quit[0m
+2026-10-24 16:46:21,171 - [TARAMA LOG] -  * Restarting with stat
+2026-10-24 16:46:21,387 - [TARAMA LOG] -  * Debugger is active!
+2026-10-24 16:46:21,394 - [TARAMA LOG] -  * Debugger PIN: 228-722-542
+2026-10-24 16:46:39,463 - [TARAMA LOG] - 127.0.0.1 - - [24/Oct/2026 16:46:39] "[36mGET / HTTP/1.1[0m" 304 -
+2026-10-24 16:46:39,491 - [TARAMA LOG] - 127.0.0.1 - - [24/Oct/2026 16:46:39] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-10-24 16:46:39,496 - [TARAMA LOG] - 127.0.0.1 - - [24/Oct/2026 16:46:39] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-10-24 16:46:39,665 - [TARAMA LOG] - 127.0.0.1 - - [24/Oct/2026 16:46:39] "[31m[1mGET /api/check-auth HTTP/1.1[0m" 401 -
+2026-10-24 16:46:39,678 - [TARAMA LOG] - 127.0.0.1 - - [24/Oct/2026 16:46:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-10-24 16:46:49,355 - [TARAMA LOG] - 127.0.0.1 - - [24/Oct/2026 16:46:49] "POST /api/login HTTP/1.1" 200 -
+2026-10-24 16:47:13,047 - [TARAMA LOG] - 127.0.0.1 - - [24/Oct/2026 16:47:13] "POST /api/scan HTTP/1.1" 200 -
+2026-10-24 16:47:13,058 - [TARAMA LOG] - 127.0.0.1 - - [24/Oct/2026 16:47:13] "GET /api/scan-status/4d905fb7-4b84-4516-bcf7-a31f2528f6b0 HTTP/1.1" 200 -
+2026-10-24 16:47:13,064 - [TARAMA LOG] - pysnmp kütüphanesi bulunamadı. Simülasyon (Mock) modu aktif.
+2026-10-24 16:47:13,065 - [TARAMA LOG] - Socket Taraması Başlatıldı: Hedef IP=127.0.0.1
+2026-10-24 16:47:15,070 - [TARAMA LOG] - 127.0.0.1 - - [24/Oct/2026 16:47:15] "GET /api/scan-status/4d905fb7-4b84-4516-bcf7-a31f2528f6b0 HTTP/1.1" 200 -
+2026-10-24 16:47:15,211 - [TARAMA LOG] - Socket Taraması Tamamlandı: 127.0.0.1 - Bulunan Açık Port Sayısı: 2
+2026-10-24 16:47:17,089 - [TARAMA LOG] - 127.0.0.1 - - [24/Oct/2026 16:47:17] "GET /api/scan-status/4d905fb7-4b84-4516-bcf7-a31f2528f6b0 HTTP/1.1" 200 -
